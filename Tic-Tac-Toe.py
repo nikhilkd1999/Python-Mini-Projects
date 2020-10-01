@@ -81,54 +81,54 @@ def draw_O():
 def isWinner():
 
     if all( i in X for i in [1,2,3]):
-        return "X Wins"
+        return "X Wins!!"
 
     elif all( i in X for i in [1,5,9]):
-        return "X Wins"
+        return "X Wins!!"
 
     elif all( i in X for i in [1,4,7]):
-        return "X Wins"
+        return "X Wins!!"
 
     elif all( i in X for i in [2,5,8]):
-        return "X Wins"
+        return "X Wins!!"
 
     elif all( i in X for i in [3,5,7]):
-        return "X Wins"
+        return "X Wins!!"
 
     elif all( i in X for i in [3,6,9]):
-        return "X Wins"
+        return "X Wins!!"
 
     elif all( i in X for i in [4,5,6]):
-        return "X Wins"
+        return "X Wins!!"
 
     elif all( i in X for i in [7,8,9]):
-        return "X Wins"
+        return "X Wins!!"
 #################################
     elif all( i in O for i in [1,2,3]):
-        return "O Wins"
+        return "O Wins!!"
 
     elif all( i in O for i in [1,5,9]):
-        return "O Wins"
+        return "O Wins!!"
 
     elif all( i in O for i in [1,4,7]):
-        return "O Wins"
+        return "O Wins!!"
 
     elif all( i in O for i in [2,5,8]):
-        return "O Wins"
+        return "O Wins!!"
 
     elif all( i in O for i in [3,5,7]):
-        return "O Wins"
+        return "O Wins!!"
 
     elif all( i in O for i in [3,6,9]):
-        return "O Wins"
+        return "O Wins!!"
 
     elif all( i in O for i in [4,5,6]):
-        return "O Wins"
+        return "O Wins!!"
 
     elif all( i in O for i in [7,8,9]):
-        return "O Wins"
+        return "O Wins!!"
     else:
-        return "None"
+        return "This is a Tie!!"
 
 while True:
     
